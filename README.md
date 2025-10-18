@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:
+## Date:17/10/2025
 
 ## AIM:
 To create a simplified clone of Dribbble (https://dribbble.com/) landing page.
@@ -26,9 +26,117 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
+```
+web.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dribble Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-info">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+    <div class="container">
+      <a class="navbar-brand" href="#">DribbleClone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Shots</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-3" href="#">Sign Up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="text-center bg-secondary py-4">
+    <div class="container bg-success">
+      <h1 class="display-5"> WELCOME TO THE GREEN WORLD</h1>
+      <p class="lead display-7">eco-frinedly device</p>
+      <a href="#" class="btn btn-info btn-lg "></a>
+    </div>
+  </section>
+
+  <section class="py-4">
+    <div class="container">
+      <h2 class="mb-4 text-center text-brown">ECO-FRIENDIY DEVICE</h2>
+      <div class="row g-3 justify-content-center">
+        
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak1.png" class="card-img-top" alt="Shot 1" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak2.png" class="card-img-top" alt="Shot 2" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak3.png" class="card-img-top" alt="Shot 3" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak4.png" class="card-img-top" alt="Shot 4" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak5.png" class="card-img-top" alt="Shot 5" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak6.png" class="card-img-top" alt="Shot 6" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+         <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak7.png" class="card-img-top" alt="Shot 6" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card">
+            <img src="deepak8.png" class="card-img-top" alt="Shot 6" style="height:180px; object-fit:cover;">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>DESIGN BY DEEPAKKUMAR.S (25016457)</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+```
 
 
 ## OUTPUT:
+![alt text](<Screenshot 2025-10-18 101213.png>)
 
 
 ## RESULT:
